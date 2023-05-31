@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="SOAP" url="http://www.dneonline.com/calculator.asmx" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>wsdlFileName</key>
+        </entry>
+        <entry>
+            <key>wsdlType</key>
+            <value>url</value>
+        </entry>
+        <entry>
+            <key>wsdlurl</key>
+            <value>http://www.dneonline.com/calculator.asmx?WSDL</value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>false</jsonpath>
+</endpoint>

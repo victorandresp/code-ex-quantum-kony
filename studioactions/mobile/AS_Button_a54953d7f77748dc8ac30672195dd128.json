@@ -1,0 +1,28 @@
+{
+    "AS_Button_a54953d7f77748dc8ac30672195dd128": {
+        "id": "AS_Button_a54953d7f77748dc8ac30672195dd128",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d8568622976a4f8fada2183df09d30c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__aea887ad911647868d75939e44dc10b9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "destroyFormA",
+            "display": "destroyFormA",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

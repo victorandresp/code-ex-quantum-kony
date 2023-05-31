@@ -1,0 +1,38 @@
+{
+    "AS_Form_he8d5326b5db4e7898373d2d8a071c46": {
+        "id": "AS_Form_he8d5326b5db4e7898373d2d8a071c46",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "SelectionHandle",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g57fad71e5e440e795de6ebd0525d54f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c9ab149b7a61414e8e89be593f0b7630",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCategoriesList",
+            "display": "getCategoriesList",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__c333d7344d4548348e80028f93508053",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getProductsData",
+            "display": "getProductsData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

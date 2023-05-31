@@ -1,0 +1,28 @@
+{
+    "AS_Button_h977b221643146348d902262b12b40af": {
+        "id": "AS_Button_h977b221643146348d902262b12b40af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CarsExercise",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a42eb8d5e61249689383ffc1cb23273b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d1264f9f64564dd888aaca0e8c47a174",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "addNewCar",
+            "display": "addNewCar",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        [
+            {
+                "lblHeading": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Audi"
+                }
+            },
+            [
+                {
+                    "nameCarLabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "TT"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblHeading": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "BMW"
+                }
+            },
+            [
+                {
+                    "nameCarLabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "M8"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "205dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "10",
+    "enablereordering": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "d856e8d76d7940f1a71ce5409a52b7a6",
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segmentCars",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a651f329294a4339aa232f1d3f6e7aa3",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "CarsExercise",
+    "pf": "CarsExercise",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d856e8d76d7940f1a71ce5409a52b7a6",
+    "rowcounter": 0,
+    "rowfocusskin": "s20f584c90e743e7b52e822778bd0465",
+    "rowskin": "s71bb8e6f7494a879bf015871ed8f443",
+    "rowtemplate": "FBox0ffe3e4ebe0184c",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "eeeab272399c41b3bb1bd96d4db1d878",
+    "sectionheaderskin": "sb8196da39884e91b1596c58bb84a1b7",
+    "sectionheadertemplate": "flxSectionHeaderTemplate",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
+        "lblHeading": "lblHeading",
+        "nameCarLabel": "nameCarLabel"
+    },
+    "zindex": 1
+}

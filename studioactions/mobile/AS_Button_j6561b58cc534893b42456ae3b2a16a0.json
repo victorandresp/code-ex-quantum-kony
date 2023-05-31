@@ -1,0 +1,30 @@
+{
+    "AS_Button_j6561b58cc534893b42456ae3b2a16a0": {
+        "id": "AS_Button_j6561b58cc534893b42456ae3b2a16a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d8568622976a4f8fada2183df09d30c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__c2845ca973ed4134a7f6a7ec944a5a4e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "FormA",
+            "friendlyName": "FormA",
+            "formKUID": "j46bc769f6794bdb8033d803dd73cd6a",
+            "projectName": "CodeExercises",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

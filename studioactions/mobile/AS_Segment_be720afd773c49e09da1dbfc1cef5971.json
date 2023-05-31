@@ -1,0 +1,34 @@
+{
+    "AS_Segment_be720afd773c49e09da1dbfc1cef5971": {
+        "id": "AS_Segment_be720afd773c49e09da1dbfc1cef5971",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "NewsApp",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ffa2a9d7769544c99a38b5dd89c66a0c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a0dfb7b02fbb431c89dc90b6f9e0ae3f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToNewDetail",
+            "display": "navigateToNewDetail",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "AS_Form_e8aaa0678c2e4779b591421b9c07e15d": {
+        "id": "AS_Form_e8aaa0678c2e4779b591421b9c07e15d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "FormB",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d8568622976a4f8fada2183df09d30c0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f1983d4d843e4fe398b13fecf17af238",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "printLifeCycle",
+            "display": "printLifeCycle",
+            "inputparams": [{
+                "name": "formName",
+                "value": "\"FormB\""
+            }, {
+                "name": "lifeCycle",
+                "value": "\"onHide\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

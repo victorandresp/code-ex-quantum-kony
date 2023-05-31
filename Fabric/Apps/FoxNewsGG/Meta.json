@@ -1,0 +1,24 @@
+{
+  "subType" : "customapp",
+  "description" : "FoxNewsGG",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "calculadoraGG2",
+    "version" : "1.0",
+    "etag" : "9ba7928f-7a50-4009-b9bb-e77033365344"
+  }, {
+    "name" : "obtenerNoticiasGG1",
+    "version" : "1.0",
+    "etag" : "d5e0770a-a382-4278-906e-665089feaba5"
+  }, {
+    "name" : "pruebaJSON",
+    "version" : "1.0",
+    "etag" : "a2c6910e-6e54-41e0-bb95-6b2d131c8920"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "Operaciones",
+    "version" : "1.0",
+    "etag" : "65d157b3-ee86-4b3a-a025-78025b17ff2d"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

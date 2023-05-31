@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "53dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s408cec9922547fe807d1981ddfd8881",
+    "_text_": "Add",
+    "_top_": {
+        "type": "string",
+        "value": "123dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s24f65e3e10846b5ba16df54213229a8",
+    "id": "btnAdd",
+    "ide_onClick": "AS_Button_h977b221643146348d902262b12b40af",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j7361f98a4604e219ec6f746d74eac17",
+    "name": "kony.ui.Button",
+    "parent": "CarsExercise",
+    "pf": "CarsExercise",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

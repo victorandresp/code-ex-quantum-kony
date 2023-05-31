@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s085eac7bbd043248298f9c3b4574444",
+    "_top_": {
+        "type": "string",
+        "value": "37dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "se5ab2e575ba48bb90ab6b06b52bf1f3",
+    "groupcells": false,
+    "id": "categoriesListBox",
+    "ide_onSelection": "AS_ListBox_jc6f54cbb80c4a168a2b386110f4d2cc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i44b55cb4f894f43aac190d028a44d53",
+    "masterdata": [
+        [
+            "lb1",
+            "Placeholder One"
+        ],
+        [
+            "lb2",
+            "Placeholder Two"
+        ],
+        [
+            "lb3",
+            "Placeholder Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "SelectionHandle",
+    "pf": "SelectionHandle",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

@@ -1,0 +1,28 @@
+{
+    "AS_Form_ff74dacd29014f178737f80f34f50c7a": {
+        "id": "AS_Form_ff74dacd29014f178737f80f34f50c7a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "NewsApp",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ffa2a9d7769544c99a38b5dd89c66a0c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__cce0f52cdab64ca28172a262c9bfb65f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getNews",
+            "display": "getNews",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

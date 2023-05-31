@@ -1,0 +1,28 @@
+{
+    "AS_ListBox_jc6f54cbb80c4a168a2b386110f4d2cc": {
+        "id": "AS_ListBox_jc6f54cbb80c4a168a2b386110f4d2cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "SelectionHandle",
+            "type": "forms",
+            "platform": null,
+            "KUID": "g57fad71e5e440e795de6ebd0525d54f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ea955af4b83e4c688323df9f05013086",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "changeCategoriesListBox",
+            "display": "changeCategoriesListBox",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
